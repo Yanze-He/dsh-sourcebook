@@ -24,18 +24,17 @@ For handoff to another agent, Sourcebook Desktop's **Pack** copies selected mate
 - “Import this local file into my Launch Book and open Sourcebook so I can review the submission.”
 ## Requirements
 - DeepSeek Harness with the built-in @deepseek-ai/dsh-mcp-client
-- Sourcebook Desktop installed and running on the same computer
+- Sourcebook Desktop installed and running on the same computer as DSH. **[Download Sourcebook Desktop for macOS (Apple silicon)](https://github.com/Yanze-He/sourcebook-for-agents/releases/download/v0.1.1-beta.6/sourcebook-desktop-installer-v0.1.1-beta.6.dmg)**
 - macOS; the default helper path in this bundle targets the standard macOS app location
 ## Install
+Install and launch Sourcebook Desktop first, then install this DSH bundle using one of the options below. Keep Sourcebook Desktop running while using the integration.
 ### DSH Desktop
 1. Open DSH Desktop and go to **Settings → Plugins → Add plugin**.
 2. Enter the repository URL: https://github.com/Yanze-He/dsh-sourcebook, then complete the Add plugin flow.
 3. Restart DSH. Start a new conversation and ask it to open Sourcebook and list your Books.
-
 ### DSH Web profile
 Run:
 dsh plugin --profile web add github:Yanze-He/dsh-sourcebook
-
 For HTTP(S) links returned by Sourcebook to open in the sidebar browser, set DSH's **Link opening method** to **In-app sidebar**. Public and loopback HTTP(S) links are supported. The browser rejects file:, data:, blob:, and DSH's own origin.
 ## If Sourcebook is installed somewhere else
 The bundled patch uses this standard macOS application path:
