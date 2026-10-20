@@ -27,11 +27,10 @@ For handoff to another agent, Sourcebook Desktop's **Pack** copies selected mate
 
 **Download Sourcebook Desktop:** [macOS (Apple silicon) DMG — click to download](https://github.com/Yanze-He/sourcebook-for-agents/releases/download/v0.1.1-beta.6/sourcebook-desktop-installer-v0.1.1-beta.6.dmg)
 
-Install and launch Sourcebook Desktop first. Keep it running while using the integration, then install this DSH bundle using one of the options below.
 ### DSH Desktop
 1. Open DSH Desktop and go to **Settings → Plugins → Add plugin**.
 2. Enter the repository URL: https://github.com/Yanze-He/dsh-sourcebook, then complete the Add plugin flow.
-3. Restart DSH. Start a new conversation and ask it to open Sourcebook and list your Books.
+3. Restart DSH. Start a new conversation and ask it to open Sourcebook and list your Books. DSH will launch Sourcebook Desktop and return a local HTTP(S) link; click it to open the app in DSH's sidebar browser.
 ### DSH Web profile
 Run:
 dsh plugin --profile web add github:Yanze-He/dsh-sourcebook
