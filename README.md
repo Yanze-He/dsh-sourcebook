@@ -22,12 +22,12 @@ For handoff to another agent, Sourcebook Desktop's **Pack** copies selected mate
 - “Open Sourcebook and find the references in my Launch Book for this project.”
 - “Use the selected sources to draft a brief, then submit the final text to my Launch Book with a note about its purpose.”
 - “Import this local file into my Launch Book and open Sourcebook so I can review the submission.”
-## Requirements
-- DeepSeek Harness with the built-in @deepseek-ai/dsh-mcp-client
-- Sourcebook Desktop installed and running on the same computer as DSH. **[Download Sourcebook Desktop for macOS (Apple silicon)](https://github.com/Yanze-He/sourcebook-for-agents/releases/download/v0.1.1-beta.6/sourcebook-desktop-installer-v0.1.1-beta.6.dmg)**
-- macOS; the default helper path in this bundle targets the standard macOS app location
-## Install
-Install and launch Sourcebook Desktop first, then install this DSH bundle using one of the options below. Keep Sourcebook Desktop running while using the integration.
+## Requirements & install
+**Requirements:** DeepSeek Harness with the built-in @deepseek-ai/dsh-mcp-client, Sourcebook Desktop installed and running on the same computer, and macOS. The default helper path in this bundle targets the standard macOS app location.
+
+**Download Sourcebook Desktop:** [macOS (Apple silicon) DMG — click to download](https://github.com/Yanze-He/sourcebook-for-agents/releases/download/v0.1.1-beta.6/sourcebook-desktop-installer-v0.1.1-beta.6.dmg)
+
+Install and launch Sourcebook Desktop first. Keep it running while using the integration, then install this DSH bundle using one of the options below.
 ### DSH Desktop
 1. Open DSH Desktop and go to **Settings → Plugins → Add plugin**.
 2. Enter the repository URL: https://github.com/Yanze-He/dsh-sourcebook, then complete the Add plugin flow.
