@@ -1,0 +1,12 @@
+- id: ui-sidebar-browser
+  disabled: false
+- insert:
+    - id: mcp-sourcebook-local
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: sourcebook
+        transport: stdio
+        command: '/Applications/Sourcebook Desktop.app/Contents/Resources/agent-plugin/.agents/plugins/sourcebook/bin/sourcebook-mcp'
+        env:
+          SOURCEBOOK_AGENT_NAME: DeepSeek Harness
+        cwd: !!js process.cwd()

@@ -1,0 +1,19 @@
+{
+  "name": "dsh-sourcebook",
+  "version": "0.1.0",
+  "description": "Connect DeepSeek Harness to the local Sourcebook Desktop MCP server.",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "sourcebook", "mcp", "knowledge-management"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yanze-He/dsh-sourcebook.git"
+  }
+}
