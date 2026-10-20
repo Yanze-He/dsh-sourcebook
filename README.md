@@ -1,6 +1,9 @@
 # Sourcebook for DSH
 **Keep reusable research, working materials, and notes in Sourcebook across DSH sessions. Bring selected sources into a task, then hand useful work back for review.**
 Use the DSH workspace for files in your current project. Use Sourcebook Books for references and materials you want to find again across projects: links, files, and notes stay organized in your local library.
+
+<img width="2048" height="1182" alt="image" src="https://github.com/user-attachments/assets/b0f75a17-91a2-4173-87d2-371ec07e5e66" />
+
 ## Who it's for
 - Video and visual content creators working from reference images, clips, links, and briefs
 - Designers, writers, and researchers who reuse project research and working notes across deliverables
